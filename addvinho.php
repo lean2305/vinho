@@ -47,7 +47,7 @@ if(mysqli_insert_id($conn)){
 }
 
 
-//Atualizar quantidade disponivel
+//Atualizar quantidade disponivel na base dados
 $sql ="SELECT * FROM armario WHERE nome_armario='$armario' ";
 
 if($res=mysqli_query($conn,$sql)){
