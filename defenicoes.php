@@ -1,5 +1,5 @@
 <?php
-
+//defenicoes
 session_start();
 
 

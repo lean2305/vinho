@@ -1,5 +1,5 @@
 <?php 
-
+//boas
 session_start();
 
 $dbhost = "localhost";
