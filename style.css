@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body
+{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Nunito Sans', sans-serif;
+	background-image: url('img/wallpaperflare.com_wallpaper\ \(2\).jpg');
+}
+a
+{	text-decoration:none;	}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.outer
+{
+	width:100%;
+	height:100vh;
+	
+	background-size:cover;
+	
+}
+.inner
+{
+	width:100%;
+	height:100vh;
+	background:transparent;
+	display:flex;
+	text-align:center;
+	align-items:center;
+	transition:all 0.3s linear;
+	z-index:0;
+	border-radius:3px;
+	box-shadow: 0 0px 20px rgba(0,0,0,0.29), 0 0px 6px rgba(0,0,0,0.35);
+	
+		
+	}
+.inner-hover
+{
+    transform-origin: 75% 50%;
+    transform: scale(0.85,0.85);
+
+}
+.prod-logo
+{
+    width: 7%;
+    height: 100vh;
+	position:absolute;
+	left:0;right:0;
+	z-index:1;
+	padding:20px 0 0 20px;
+}
+.prod-img
+{
+	width:60px;
+	height:60px;
+	margin:0px auto;
+	border-radius:3px;
+	padding:5px;
+	transition:background 0.3s linear;
+}
+.prod-left
+{
+	width:55%;
+	text-align:left;
+	padding-left:75px;
+}
+.prod-right
+{
+	width:45%;
+}
+.prod-human-img
+{
+	width:550px;
+	height:700px;
+}
+.prod-head
+{
+	margin-left:-5px !important;
+	text-align:left;
+	font-weight:800;
+	font-size:80pt;
+	color:white;
+	margin:0;
+	
+}
+.prod-head-sub
+{
+   font-weight:400;
+	font-size:25pt;
+	color:#6f7576;
+	margin:0 auto;
+	font-family: 'Great Vibes', cursive;
+}
+.prod-logo:hover .prod-img
+{
+	background:darkred;
+	box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.09), 0 3px 2px -2px rgba(0, 0, 0, 0.07), 0 1px 5px 0 rgba(0, 0, 0, 0.08);
+}
+.main-nav {
+	float:left;
+	transition: all 2s;
+}
+.main-nav a {
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	display: block;
+	color: verm;
+	font-size:15pt;
+	font-weight:600;
+	color: white;
+}
+.nav-li
+{
+	cursor:pointer;
+	line-height:2;
+	display: none;
+}
+.nav-li a {
+  position: relative;
+}
+.nav-li a:after {    
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0%;
+  position: absolute;
+  background: #0f457f;
+  transition: width 0.4s ease 0s;
+  width: 0;
+}
+.nav-li a:hover:after { 
+  width: 100%; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
